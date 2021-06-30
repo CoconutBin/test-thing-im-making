@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+.textforuse {
+    color: black;
+    text-shadow:0px 0px 2px black;
+}
+
+.modechangebutton {
+    background-color:black;
+    color:white;
+}
+
+.slowfadein{
+    animation: opac 3s;
+}
+
+.storytext {
+    color: black;
+    text-shadow:0px 0px 2px  black;
+    border:  black solid 2px;
+    box-shadow: 0px 0px 2px  black;
+    display:inline-flex;
+    padding:1px;
+    text-align: left;
+}
+
+@keyframes opac{
+    from {opacity:0}
+    to {opacity:1}
+}

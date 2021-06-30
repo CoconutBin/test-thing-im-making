@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(53,54,58);
+}
+
+.textforuse {
+    color: white;
+    text-shadow:0px 0px 2px white;
+}
+
+.storytext {
+    color: white;
+    text-shadow:0px 0px 2px white;
+    border: white solid 2px;
+    box-shadow: 0px 0px 2px white;
+    display:inline-flex;
+    padding: 1px;
+    text-align: left;
+}
+
+.slowfadein{
+    animation: opac 3s;
+}
+
+@keyframes opac{
+    from {opacity:0}
+    to {opacity:1}
+}

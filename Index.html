@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script defer src="Cookies.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protoss Mining Sim</title>
+    <link rel="stylesheet" href="lightmode.css" id="currentmode">
+    <button onclick="change2()" id="buttonmode"type="button" class="modechangebutton" style="position:absolute; top:8px; right: 16px;">Dark mode</button>
+</head>
+<body>
+<div class="storytext">   
+    <h4 id="p1"> You are a broken down probe stranded on an unknown planet</h4><h4 class="slowfadein">, there is a mineral field nearby</h4>
+</div>
+
+
+<div class="textforuse">
+    <h3 id="currentminerals">You have 0 minerals</h3>
+    <h3 class ="slowfadein"id="currentprobes" hidden>You have 0 probes</h3>
+    <button class="slowfadein" id="minemineralbtn" title="Wonder if the mineral field will ever get depleted?" onclick="minemineral()">Mine minerals</button>
+    <br>
+    <button class="slowfadein" id="buyprobebtn" onclick="buyprobe()" hidden>Buy a Probe</button>
+    <br>
+    <button class="slowfadein" title="Maybe if you just throw 3 blue rocks at yourself, you'll magically get better!" id="upgradebtn1" hidden disabled onclick="upgrade_fix_damaged_internal_generator()">Repair damaged internal generator <br> 3 minerals, increase mining speed </button>
+    <br>
+    <button class="slowfadein" id="upgradebtn2" onclick="" hidden></button>
+
+
+</div>
+</body>
+<script defer src="changemodescript.js"></script>
+<script defer src="game.js"></script>
+<script defer src="upgrades.js"></script>
+<script defer src="show buttons.js"></script>
+</html>
